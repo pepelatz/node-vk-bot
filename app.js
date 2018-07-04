@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const { PORT, CONFIRMATION } = require('./config');
+const processing = require('./processing');
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -16,7 +17,7 @@ app.post('/', (req, res) => {
       break;
 
     case 'message_new':
-      console.log(body);
+      processing(body.object);
       res.end('ok');
       break;
 
@@ -37,6 +38,7 @@ app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`));
      user_id: 453773759,
      read_state: 0,
      title: '',
+     payload: 1,
      body: 'test' },
   group_id: 165364631 }
 */

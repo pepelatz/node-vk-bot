@@ -16,7 +16,9 @@
   },
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "vk-easy": "^1.4.1"
   },
   "engines": {
     "node": ">=9.0.0"
