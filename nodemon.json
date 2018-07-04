@@ -5,7 +5,7 @@
     "PORT": 3000,
     "CONFIRMATION": "2e759108",
     "TOKEN":
-      "6ac5d0622f338af13b32eb7626207527fdce916377186a5e8a0c2abc0596c1f194f8e238392f1a7d584b9"
+      "29d21c2bc4f8a5ad40f23b88ed36ef2915d940b4bcf21ad36962bcc2855e515beef98d1372687567fefb3"
   },
   "ext": ".js,.json",
   "watch": "./"

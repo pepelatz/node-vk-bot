@@ -10,7 +10,7 @@ module.exports = async ({ user_id: userId, body: text, payload }) => {
   const index = _.findIndex(couples, arr => _.indexOf(arr, userId) !== -1);
 
   if (index === -1) {
-    if (!waitUserId) {
+    if (!waitUserId || waitUserId === userId) {
       waitUserId = userId;
       await send(userId, 'Ждём собеседника...');
       return;
