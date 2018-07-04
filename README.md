@@ -7,3 +7,8 @@ Express: [https://expressjs.com/en/starter/hello-world.html](https://expressjs.c
 Ngrok: [https://ngrok.com/download](https://ngrok.com/download)
 
 Callback Api: [https://vk.com/dev/callback_api](https://vk.com/dev/callback_api)
+
+## Видео 2
+
+Доки ботов: [https://vk.com/dev/bots_docs](https://vk.com/dev/bots_docs)
+Vk Easy: [https://github.com/vladzadvorny/vk-easy](https://github.com/vladzadvorny/vk-easy)
